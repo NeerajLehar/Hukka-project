@@ -1,0 +1,83 @@
+// @import "../../variable";
+
+.dropdownContainer {
+  .dropDownBtn {
+    border-radius: 16px;
+    border: 2px solid lightBlue;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    background: blue;
+
+    &:hover {
+      background: rgba(blue, 0.8);
+    }
+  }
+
+  .downIcon {
+    width: 18px;
+    fill: white;
+    // margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .dropdownMenuContainer {
+    background: blue;
+    border: 2px solid lightBlue;
+
+    .dropdownMenuItem {
+      color: white;
+      font-weight: 300;
+      font-size: 14px;
+      background: blue;
+
+      &:hover {
+        background: black;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .dropdownContainer {
+    .dropDownBtn {
+      // border-radius: 16px;
+      // border: 2px solid $lightBlue100;
+      // color: white;
+      // font-size: unit(14px);
+      // width: 100%;
+      padding: 8px 16px;
+      // text-align: center;
+      // background: $blue100;
+
+      // &:hover {
+      //   background: rgba($blue100, 0.8);
+      // }
+    }
+
+    .downIcon {
+      // width: unit(18px);
+      // fill: $white;
+      margin-right: 16px;
+      // margin-left: 16px;
+    }
+
+    // .dropdownMenuContainer {
+    //   background: $blue100;
+    //   border: 2px solid $lightBlue100;
+
+    //   .dropdownMenuItem {
+    //     color: white;
+    //     font-weight: 300;
+    //     font-size: unit(14px);
+    //     background: $blue100;
+
+    //     &:hover {
+    //       background: $black100;
+    //     }
+    //   }
+    // }
+  }
+}

@@ -1,0 +1,43 @@
+$black100: #000000;
+$black75: #202020;
+$black50: #303030;
+$orange: #d56730;
+$red: #ec4e20;
+$gray100: #707070;
+$gray75: #878793;
+$lightGray100: #eeeeee;
+$lightGray75: #ebebed;
+$lightGray50: #fefefe;
+$lightGray25: #e6e6e6;
+$lightGray0: #dcdcdc;
+$blue100: #2b3441;
+$blue50: #3a3952;
+$blue25: #74bddd;
+$lightBlue100: #4d5c72;
+$lightBlue75: #809fb8;
+$lightBlue50: #99b2c6;
+$skyBlue100: #74bddd;
+$green100: #1ad598;
+$yellow100: #c9a800;
+$yellow75: #ffd500;
+$purple100: #7f63f4;
+$white: white;
+
+// components hight
+$navBar: 4rem;
+
+// change pixel to rem
+@function unit($pixels, $context: 16px) {
+  @return ($pixels / $context) * 1rem;
+}
+
+$headerHeight: 60px;
+$radius16px: 16px;
+
+// for media quarry
+$width576: 576px;
+$width768: 768px;
+$width992: 992px;
+$width1200: 1200px;
+$width1440: 1440px;
+$width1920: 1920px;

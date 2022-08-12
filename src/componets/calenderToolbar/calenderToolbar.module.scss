@@ -1,0 +1,16 @@
+.ToolbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  .buttonContainer {
+    .btn {
+      padding: 0.5rem 1rem;
+    }
+  }
+  .label {
+    label {
+      font-size: 1.5rem;
+    }
+  }
+}

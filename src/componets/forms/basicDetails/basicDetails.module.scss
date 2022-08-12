@@ -1,0 +1,31 @@
+.radioButton {
+  background-color: 100;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  .inputContainer {
+    padding: 0.75rem;
+    background-color: black;
+    input {
+      width: 1em;
+      height: 1em;
+      margin-top: 0.25em;
+      border-radius: 0.1rem;
+      vertical-align: top;
+      background-color: #fff;
+      background-position: center;
+      background-size: contain;
+      border: 1px solid rgba(0, 0, 0, 0.25);
+      appearance: none;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      &:checked {
+        background-color: 100;
+      }
+    }
+  }
+  label {
+    padding: 0.5rem 1rem;
+    color: white;
+  }
+}

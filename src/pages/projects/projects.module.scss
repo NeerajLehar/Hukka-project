@@ -1,0 +1,18 @@
+@import "../../scss/variables";
+.projectMainContainer {
+  padding: unit(16px);
+  height: calc(100vh - $navBar);
+  overflow: scroll;
+  background: $lightGray100;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  .addCompany {
+    padding: 0.5rem;
+  }
+  .headerButton {
+    display: flex;
+  }
+}

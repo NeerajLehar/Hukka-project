@@ -1,0 +1,24 @@
+@import "../../scss/variables";
+.dashboardContainer {
+  // width: 100%;
+  .mainContainer {
+    background-color: $lightGray100;
+    height: calc(100% - $navBar);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    .taskContainer {
+      display: flex;
+      .calender {
+        flex-basis: 70%;
+      }
+      .taskListContainer {
+        flex: 30%;
+      }
+    }
+    // .calender {
+    //   width: 60%;
+    // }
+  }
+}

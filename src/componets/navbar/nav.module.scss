@@ -1,0 +1,34 @@
+@import "../../scss/variables";
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $navBar;
+  div {
+    padding: 1rem;
+  }
+  .searchBar {
+    flex-basis: 60%;
+    position: relative;
+    input {
+      width: 18rem;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      background-color: $lightGray100;
+      border: none;
+      outline: none;
+      &::after {
+        content: "";
+        background: url(./../../images/search.svg);
+        position: absolute;
+        left: 10px;
+        top: 0;
+        bottom: 0;
+        width: 20px;
+      }
+    }
+  }
+  .user {
+    border-right: 2px solid $gray100;
+  }
+}

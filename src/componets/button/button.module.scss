@@ -1,0 +1,14 @@
+@import "../../scss/variables";
+
+.btn {
+  padding: 0.7rem 0.5rem;
+  border: none;
+  color: white;
+}
+.saveBtn {
+  background-color: $green100;
+}
+.whiteBtn {
+  background-color: white;
+  color: black;
+}

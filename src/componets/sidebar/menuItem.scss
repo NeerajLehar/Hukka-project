@@ -1,0 +1,21 @@
+@import "../../scss/variables";
+.listContainer {
+  list-style: none;
+  .sideMenuItem {
+    display: block;
+    color: $white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    &:hover,
+    &.active {
+      background-color: $green100;
+    }
+
+    .MenuIcon {
+      margin-right: 0.5rem;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+    }
+  }
+}

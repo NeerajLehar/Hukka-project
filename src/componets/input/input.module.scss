@@ -1,0 +1,21 @@
+@import "../../scss/variables";
+
+.label {
+  margin-right: 1rem;
+}
+.input {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  // opacity: 0.5;
+  color: $black100;
+  background-color: 100;
+  padding: 0.7rem 0.5rem;
+  width: 30rem;
+  &::placeholder {
+    color: white;
+  }
+  &:focus-visible {
+    border: 2px solid #d11313;
+    outline: none;
+  }
+}

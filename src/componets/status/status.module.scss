@@ -1,0 +1,9 @@
+@import "../../scss/variables";
+.active {
+  color: $black75;
+  background-color: $green100;
+  padding: 1rem;
+}
+.nothing {
+  background-color: $black75;
+}

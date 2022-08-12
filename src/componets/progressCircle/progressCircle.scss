@@ -1,0 +1,38 @@
+@import "../../scss/variables";
+.progressContainer {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: $black75;
+  border-radius: 0.5rem;
+  .progressBar {
+    width: 100px;
+  }
+  .amountContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+    .titleContainer {
+      color: $gray100;
+    }
+    .percentageContainer {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      color: white;
+      .iconContainer {
+        background-color: green;
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

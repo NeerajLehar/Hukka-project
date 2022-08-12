@@ -1,0 +1,27 @@
+@import "../../scss/variables";
+
+.DropDownWrapper {
+  background-color: $black100;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+  .ExtendContainer {
+    background: black;
+    overflow: hidden;
+    height: 0;
+    transition: all 0.35s ease-in-out;
+  }
+  .ExtendContainer.open {
+    height: 100px;
+  }
+}
+.projectContainer {
+  display: flex;
+  color: $gray100;
+  .wrapperContainer {
+    flex: 33.33% 0 0;
+    .title {
+      color: $black75;
+    }
+  }
+}
